@@ -1,0 +1,132 @@
+.activeSideBar{
+    background-color: #445EDE !important;
+    color: #fff !important;
+  }
+  .activeSideBar svg{
+    color: #fff !important;
+      stroke-width: 2px !important;
+  }
+  .mixed-chart{
+    width: 100% !important;
+  }
+
+  body,.header-container { padding-right: 0 !important }
+  #chart-2 .apexcharts-legend {
+    inset: auto 0px -10px !important; 
+  }
+  #chart-2 .apexcharts-legend-series{
+    margin: 8px  !important;
+  }
+  .logout-p{
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .cursr{
+    cursor: pointer;
+  }
+  svg{
+    overflow: auto;
+  }
+  .row{
+    margin-left: 0 !important;
+    margin-right: 0!important;
+  }
+  .apexcharts-legend{
+    gap: 20px;
+  }
+  .navbar .language-dropdown .custom-dropdown-icon .dropdown-menu span{
+    padding: 8px 7px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3b3f5c;
+  }
+  .user-profile .widget-content-area .user-info-list ul.contacts-block li {
+    font-size: 16px;
+  }
+
+  .education .widget-content-area h3 {
+    margin: 6px 0px 20px 0;
+  }
+.sampleImagesitem:hover  .sampleImagesOverlay{
+  opacity: 1;
+}
+  .sampleImagesOverlay{
+    transition: all .5s ease;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal {
+    overflow-y:scroll !important;
+  }
+
+/*************************************** arabic  ********************************/
+html:lang(ar) {
+  direction: rtl;
+}
+.table:lang(ar) tr td{
+  text-align: right;
+}
+#content:lang(ar) {
+  margin-right: 255px;
+  margin-left: 0;
+}
+.widget-three:lang(ar),
+.widget-heading:lang(ar),
+.widget-content:lang(ar) {
+  text-align: right;
+}
+
+.widget-table-one:lang(ar) .transactions-list .t-item .t-icon,.widget-three .widget-content .w-icon:lang(ar){
+    margin:  0 0 0 12px;
+}
+.widget-table-two .table .td-content img:lang(ar),.widget-table-three .table .td-content img:lang(ar),.widget-table-two .table > thead > tr > th:first-child .th-content:lang(ar),.apexcharts-legend-marker:lang(ar) {
+    
+    margin:  0 0 0 13px;
+}
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-right:lang(ar), .apexcharts-legend.apx-legend-position-top.apexcharts-align-right:lang(ar){
+    left: auto !important;
+}
+.sidebar-closed:lang(ar) > #content{
+    margin-left: 0;
+    margin-right: 54px;
+}
+#sidebar ul.menu-categories li.menu > .dropdown-toggle svg:lang(ar){
+    margin-left: 18px;
+    margin-right: 0;
+}
+.navbar .navbar-item .nav-item.user-profile-dropdown .dropdown-menu:lang(ar){
+    right: -140px;
+    left: auto;
+    text-align: right;
+}
+ .widget-content-area:lang(ar) h3:after{
+  right: 15px;
+  left: auto;
+}
+.contacts-block__item:lang(ar) i{
+  margin-left: 1rem;
+  margin-right: 0 !important;
+}
+.navbar:lang(ar) .language-dropdown .custom-dropdown-icon .dropdown-menu{
+  left: 1px;
+  right: auto;
+}
+.navbar:lang(ar) .navbar-item .nav-item.dropdown .dropdown-menu .dropdown-item{
+  text-align: right;
+}
+#sidebar:lang(ar) ul.menu-categories li.menu{
+  text-align: right;
+}
+.navbar:lang(ar) .navbar-item .nav-item.user-profile-dropdown .dropdown-menu .user-profile-section .media img{
+  margin-right: auto !important;
+  margin-left: .5rem;
+}
+h4:lang(ar){
+  text-align: right;
+}
